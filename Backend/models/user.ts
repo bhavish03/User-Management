@@ -33,11 +33,7 @@ module.exports = (sequelize: any, DataTypes: any) => {
         allowNull: false,
         primaryKey: true,
       },
-      name: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-      email: {
+       email: {
         type: DataTypes.STRING,
         allowNull: false,
         unique: true,
@@ -49,7 +45,13 @@ module.exports = (sequelize: any, DataTypes: any) => {
         type:DataTypes.INTEGER,
         allowNull:false,
         unique:true
-      }
+      },
+      name: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+     
+    
     },
     {
       sequelize,
