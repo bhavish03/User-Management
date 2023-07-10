@@ -17,4 +17,3 @@ export const storeUser = async (req: Request, res: Response) => {
     res.json({ success: false, message: 'Error occurred while storing the user', payload: null });
   }
 };
-

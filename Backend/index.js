@@ -1,7 +1,7 @@
-import express from "express";
-import db from "./models/";
-import cors from "cors";
-import router from "./routes/index";
+const express = require("express");
+const db = require("./models/");
+const cors = require("cors");
+const router = require("./routes/index");
 const app = express();
 
 app.use(express.json());
